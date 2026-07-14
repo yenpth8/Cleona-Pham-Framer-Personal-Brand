@@ -72,7 +72,8 @@ tags: ["Business Analytics", "Business Understanding"]
             - Logistic corporrate (E-logistic corporate)
         - Business Model
             <!-- <iframe src="https://www.figma.com/board/RQAspWxOglJmn8miOxfQj3/Savvy-Space?node-id=407-19264&t=jQDPfdItnQIrqPI9-4"  width="800" height="450"allowfullscreen></iframe> -->
-            ![BusinessModel](./assets/BusinessModel.png)
+            <!--![BusinessModel](./assets/BusinessModel.png) -->
+            <img width="3728" height="3472" alt="BusinessModel" src="https://github.com/user-attachments/assets/5bd452f4-13b7-4bc2-bf27-5854a98a8dab" />
 
 3. **Stakeholder**
     - Role in Business
