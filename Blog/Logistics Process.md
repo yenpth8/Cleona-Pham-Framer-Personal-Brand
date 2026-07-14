@@ -1,6 +1,6 @@
 ---
 title: "Logistics Process"
-cover: https://github.com/user-attachments/assets/5f186ee8-4bdd-4817-8578-44161ee7328e
+cover: <img width="3728" height="3472" alt="BusinessModel" src="[https://github.com/user-attachments/assets/5bd452f4-13b7-4bc2-bf27-5854a98a8dab](https://github.com/user-attachments/assets/5f186ee8-4bdd-4817-8578-44161ee7328e)" />
 tags: ["Business Analytics", "Business Understanding"]
 ---
 # Social Post Series
