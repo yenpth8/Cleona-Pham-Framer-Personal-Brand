@@ -72,7 +72,39 @@ tags: ["Business Analytics", "Business Understanding"]
             - Logistic corporrate (E-logistic corporate)
         - Business Model
             <!-- <iframe src="https://www.figma.com/board/RQAspWxOglJmn8miOxfQj3/Savvy-Space?node-id=407-19264&t=jQDPfdItnQIrqPI9-4"  width="800" height="450"allowfullscreen></iframe> -->
-            ![BusinessModel](./assets/BusinessModel.png)
+            ![BusinessModel](https://github.com/yenpth8/Cleona-Pham-Framer-Personal-Brand/blob/8f681bfea71c070805cf23e04469e7ba6c9ba47d/Blog/Assets/BusinessModel.png?raw=true)
+
+            ```mermaid
+            flowchart TB
+
+            subgraph Economy
+            direction LR
+
+            E[E-commerce<br/>Brand]
+
+            subgraph Center
+            direction TB
+            L{Logistics}
+            end
+
+            C([Customer])
+
+            E -- Goods --> L
+            L -- Goods --> C
+            E -. Goods .-> C
+
+            C -- Cash --> E
+            E -- Cash --> L
+
+            end
+
+            linkStyle 0 stroke:#F7931E,stroke-width:3px
+            linkStyle 1 stroke:#F7931E,stroke-width:3px
+            linkStyle 2 stroke:#F7931E,stroke-width:3px
+
+            linkStyle 3 stroke:#56CFCF,stroke-width:3px
+            linkStyle 4 stroke:#56CFCF,stroke-width:3px
+            ```
 
 3. **Stakeholder**
     - Role in Business
@@ -110,4 +142,70 @@ tags: ["Business Analytics", "Business Understanding"]
 - Formula
 - Component Explanation
 
+```mermaid
+flowchart LR
 
+    %% Entities
+    E[E-commerce<br/>Brand]
+    L{Logistics}
+    C([Customer])
+
+    %% Goods Flow
+    E -- Goods --> L
+    L -- Goods --> C
+    E -. Goods .-> C
+
+    %% Cash Flow
+    C -- Cash --> E
+    E -- Cash --> L
+
+    %% Styling
+    classDef ecommerce fill:#ffffff,stroke:#666,stroke-width:2px;
+    classDef logistics fill:#ffffff,stroke:#666,stroke-width:2px;
+    classDef customer fill:#ffffff,stroke:#666,stroke-width:2px;
+
+    class E ecommerce;
+    class L logistics;
+    class C customer;
+
+    %% Goods color
+    linkStyle 0 stroke:#f7931e,stroke-width:3px;
+    linkStyle 1 stroke:#f7931e,stroke-width:3px;
+    linkStyle 2 stroke:#f7931e,stroke-width:3px,stroke-dasharray:0;
+
+    %% Cash color
+    linkStyle 3 stroke:#4ecdc4,stroke-width:3px;
+    linkStyle 4 stroke:#4ecdc4,stroke-width:3px;
+```
+
+```mermaid
+flowchart TB
+
+subgraph Economy
+direction LR
+
+E[E-commerce<br/>Brand]
+
+subgraph Center
+direction TB
+L{Logistics}
+end
+
+C([Customer])
+
+E -- Goods --> L
+L -- Goods --> C
+E -. Goods .-> C
+
+C -- Cash --> E
+E -- Cash --> L
+
+end
+
+linkStyle 0 stroke:#F7931E,stroke-width:3px
+linkStyle 1 stroke:#F7931E,stroke-width:3px
+linkStyle 2 stroke:#F7931E,stroke-width:3px
+
+linkStyle 3 stroke:#56CFCF,stroke-width:3px
+linkStyle 4 stroke:#56CFCF,stroke-width:3px
+```
