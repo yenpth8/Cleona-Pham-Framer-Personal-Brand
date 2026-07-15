@@ -73,7 +73,7 @@ tags: ["Business Analytics", "Business Understanding"]
         - Business Model
             <!-- <iframe src="https://www.figma.com/board/RQAspWxOglJmn8miOxfQj3/Savvy-Space?node-id=407-19264&t=jQDPfdItnQIrqPI9-4"  width="800" height="450"allowfullscreen></iframe> -->
 
-            ![BusinessModel](https://github.com/yenpth8/Cleona-Pham-Framer-Personal-Brand/blob/8f681bfea71c070805cf23e04469e7ba6c9ba47d/Blog/Assets/BusinessModel.png?raw=true)
+            ![BusinessModel](https://github.com/yenpth8/Personal-Brand/blob/928cbd9abe8327dee21032d11be8d46164095e86/Blog/Assets/BusinessModel.png?raw=true)
 
             ```mermaid
             flowchart TB
